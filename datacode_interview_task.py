@@ -4,7 +4,7 @@
 import json
 
 # open the english, french and pirate json files
-with open("languages/english.json") as f1, open("languages/french.json") as f2, open("languages/pirate.json") as f3:
+with open("languages-english.json") as f1, open("languages-french.json") as f2, open("languages-pirate.json") as f3:
     # create dicts from json objs
     data1 = json.load(f1)
     data2 = json.load(f2)
